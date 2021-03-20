@@ -1,0 +1,12 @@
+
+progress{
+    box-sizing: border-box;
+    width: 320px;
+    height: 40px;
+    border: 5px solid #1C1D26;
+    background-color: #E5DDC8;  
+}
+progress::-moz-progress-bar,
+progress::-webkit-progress-bar{
+    background-color: #004369;
+}

@@ -1,0 +1,25 @@
+.section{
+    background-color: #DB1F48;
+    height: 730px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #004369;
+}
+
+.skill-tec{
+    display: flex;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: #FFF;
+}
+.skill-tec .icon{
+    margin-right: 25px;
+}
+
+.skill-tec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+

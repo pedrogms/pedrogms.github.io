@@ -1,14 +1,22 @@
-.button{
-    display:inline-block;
-    background-color: #62C370;
-    box-shadow: 5px 5px 0 black;       
-    padding:18px 20px; 
+.main-button{
+    display: inline-block;
+    font-family: "Fira Code";
+    background-color: #DB1F48;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
     margin-right: 0;
-    transition: transform 0.4s;
-    text-align: center;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
 
 }
-.button:hover{
+.main-button:hover{
     transform: scale(1.1);
     transition: 0.4s;
+}
+
+.main-button.-box{
+    margin-top: 38px;
 }
