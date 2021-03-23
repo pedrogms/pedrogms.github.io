@@ -12,4 +12,12 @@
     height: 280px;
     margin-left: 140px;
     margin-right: 140px;
+    transition: 1s;
+
 }
+.wrapper-card > .card.-image img:hover{
+   cursor: pointer;
+   background-color: #000;
+   transition: 1s;
+}
+

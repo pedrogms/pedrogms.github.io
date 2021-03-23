@@ -9,5 +9,15 @@
     background-color: #1C1D26;
     height: 520px;
     border-bottom: 10px solid #DB1F48;
+}
+.section.-sobre{
+    background-color: #004369;
+    height: 783px;
+    border-bottom: 10px solid #1C1D26;
 
+}
+.section.-contatos{
+    background-color: #01949A;
+    height: 765px;
+    border: none;
 }
