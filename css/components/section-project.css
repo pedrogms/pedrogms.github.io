@@ -1,0 +1,15 @@
+.wrapper-card{
+    margin-top: 50px;
+    justify-content: center;
+    height: 280px;
+    display: flex;
+
+}
+/* card image */
+.wrapper-card > .card.-image img{
+    background-color: teal;
+    box-shadow: #FFF 10px 10px 0;
+    height: 280px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
