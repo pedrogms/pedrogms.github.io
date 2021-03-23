@@ -1,0 +1,36 @@
+.form{
+    padding:50px 40px;
+}
+.form .main-input{
+    box-sizing: border-box;
+    background-color: #E5DDC8;
+    border: 5px #1C1D26 solid;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px;
+}
+.form .main-input{
+    margin-bottom: 20px;
+}
+.form label{
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Fira Code';
+    color: #E5DDC8;
+}
+.form  .-textarea{
+    height: 318px;
+}
+.form .main-button{
+    width: 100%;
+    text-align: center;
+    border: none;
+    transition: none;
+    transform: scale(1);
+    
+}
+.form .main-button:hover{
+    transform: scale(1.025);
+    transition: 1s;
+}
