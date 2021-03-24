@@ -26,7 +26,7 @@
     width: 100%;
     text-align: center;
     border: none;
-    transition: none;
+    transition: 1s;
     transform: scale(1);
     
 }
