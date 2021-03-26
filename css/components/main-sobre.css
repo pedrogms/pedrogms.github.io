@@ -42,6 +42,7 @@
 .main-carousel .elements{
     display: flex;
     justify-content: space-between;
+    transition: transform 100ms ease-in-out;
 
 }
 .img-project{
@@ -111,8 +112,4 @@
 .arrow.-left::before{
     transform: rotate(180deg) translateX(14px);
     
-}
-
-.arrow.-left:focus{
-    transform: translateX(200px);
 }
