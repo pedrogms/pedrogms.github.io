@@ -26,10 +26,11 @@
 }
 .main-sobre .icon-project{
     height: 140px;
-    background: green;
+    background: #01949A;
     border:5px #1C1D26 solid;
     box-sizing: border-box;
 }
+
 .main-sobre figcaption{
     text-align: center;
     margin-bottom: 50px;
@@ -61,3 +62,56 @@
     text-align: center;
 
 }
+.buttons{
+    position: relative;
+}
+.arrow{
+    background-color: #DB1F48;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 4px 0 #1C1D26;   
+    position: absolute;
+}
+
+.arrow.-right{
+    position: absolute;
+    left: 15px;
+    top: 120px;
+}
+.arrow.-left{
+    position: absolute;
+    right: 15px;
+    top: 120px;
+}
+
+.arrow.-left::before{
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px; 
+    border: 10px solid none;
+    border-left: 20px solid snow;
+    border-right: 0px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform: translateX(5px);
+
+}
+.arrow.-right::before{
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px; 
+    border: 10px solid none;
+    border-left: 20px solid snow;
+    border-right: 0px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform: translateX(2px) scaleX(-1);
+}
+
