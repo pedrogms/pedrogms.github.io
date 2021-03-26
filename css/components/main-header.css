@@ -27,5 +27,7 @@ nav{
     display: inline-block;
     background-color: #DB1F48;
 }
-
+.picture img{
+    width: 60px;
+}
 

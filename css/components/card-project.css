@@ -8,16 +8,25 @@
 }
 /* card image */
 .wrapper-card > .card.-image img{
-    background-color: teal;
-    box-shadow: #FFF 10px 10px 0;
+    background-color: #4c2e6e;
+    box-shadow: #DB1F48 10px 10px 0;
     height: 280px;
     margin-right: 140px;
     transition: 1s;
-
+    
+}
+.wrapper-card > .card.-image.-second img{
+    background-color: #004369;
+}
+.wrapper-card > .card.-image.-third img{
+    background-color: #970421;
 }
 .wrapper-card > .card.-image img:hover{
    cursor: pointer;
-   background-color: #000;
-   transition: 1s;
+   background-color: #01949A;
+   transition: 0.7s;
+   transform: scale(1.1) ;
+   
 }
+
 
