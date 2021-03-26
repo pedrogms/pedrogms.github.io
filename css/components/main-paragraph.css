@@ -1,8 +1,10 @@
 .main-paragraph{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 700;
     font-family: 'Fira Code';
     color: #E5DDC8;
     justify-content: start;
-    margin: 50px 80px;
+    padding: 80px 50px;
+    line-height: 1.3;
+    
 }

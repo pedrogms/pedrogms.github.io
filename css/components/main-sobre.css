@@ -1,14 +1,11 @@
-
-.main-sobre {
+.main-carousel{
     display: flex;
     justify-content: space-between;
     position: relative;
     padding-left: 85px;
     padding-right: 85px;
 }
-
-.main-sobre::before {
-
+.main-carousel::before{
     content: '';
     position: absolute;
     box-sizing: border-box;
@@ -16,102 +13,101 @@
     top: 38.2px;
     display: block;
     border: 3px dashed #000;
-    width: 100%;
-
+    width: 100%; 
 }
-.main-sobre .info-box{
-    height: 215px;
-    text-align: center;
-    
-}
-.main-sobre .icon-project{
-    height: 140px;
-    background: #01949A;
-    border:5px #1C1D26 solid;
-    box-sizing: border-box;
-}
-
-.main-sobre figcaption{
-    text-align: center;
-    margin-bottom: 50px;
-    font-family:'Press Start 2P';
-    font-weight: 400;
-    font-size: 25px;
-    color: #DB1F48;
-}
-.main-sobre figure::before{
-    content: '';
-    width: 30px;
-    box-sizing: border-box;
-    height: 0;
-    border: 2.5px #1C1D26 dashed ;
-    position: absolute;
-    transform: rotate(90deg) translateX(-62%) translateY(-50px);
-}
-
-.main-sobre::after {
-
+.main-carousel::after{
     content: '';
     position: absolute;
     box-sizing: border-box;
+    left: 90px;
     top: 38.2px;
     display: block;
     border: 3px solid #000;
-    width: 90%;
-    height: 6px;
-    text-align: center;
+    width: 90%; 
+}
+.img-project::before{
+    content: '';
+    position: absolute;
+    border: 2px dashed black;
+    width: 35px;
+    transform: rotate(90deg);
+    top: 60px;
+    box-sizing: border-box;
+}
+.main-carousel .items{
+    width: 100%;
+}
+
+.main-carousel .elements{
+    display: flex;
+    justify-content: space-between;
 
 }
-.buttons{
+.img-project{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
 }
+.img-project figcaption{
+    font-family: 'Press Start 2P';
+    color: #DB1F48;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CEB02A;
+}
+
+
+
+
+
+
+/* conf dos butão */
 .arrow{
     background-color: #DB1F48;
-    cursor: pointer;
-    box-sizing: border-box;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: none;
-    box-shadow: 4px 4px 0 #1C1D26;   
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+.main-carousel .arrow{
     position: absolute;
+    bottom: 80px;
+    transform: translateY(50%);
+}
+.arrow span{
+    display: none;
+}
+.arrow::before{
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid white;
+    transform: translateX(5px);
 }
 
 .arrow.-right{
     position: absolute;
-    left: 15px;
-    top: 120px;
+    right: 15px;
 }
 .arrow.-left{
     position: absolute;
-    right: 15px;
-    top: 120px;
+    left: 15px;
 }
-
 .arrow.-left::before{
-    content: '';
-    display: block;
-    box-sizing: border-box;
-    width: 20px;
-    height: 20px; 
-    border: 10px solid none;
-    border-left: 20px solid snow;
-    border-right: 0px solid transparent;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    transform: translateX(5px);
-
+    transform: rotate(180deg) translateX(14px);
+    
 }
-.arrow.-right::before{
-    content: '';
-    display: block;
-    box-sizing: border-box;
-    width: 20px;
-    height: 20px; 
-    border: 10px solid none;
-    border-left: 20px solid snow;
-    border-right: 0px solid transparent;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    transform: translateX(2px) scaleX(-1);
-}
-
