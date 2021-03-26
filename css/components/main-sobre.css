@@ -36,6 +36,7 @@
 }
 .main-carousel .items{
     width: 100%;
+    overflow: hidden;
 }
 
 .main-carousel .elements{
@@ -110,4 +111,8 @@
 .arrow.-left::before{
     transform: rotate(180deg) translateX(14px);
     
+}
+
+.arrow.-left:focus{
+    transform: translateX(200px);
 }
